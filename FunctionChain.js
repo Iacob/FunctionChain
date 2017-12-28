@@ -10,7 +10,7 @@ class FunctionChain {
 	    if (options.chain) {
 		this.addAll(options.chain)
 	    }
-
+	    
 	    if (options.complete) {
 		this.onComplete(options.complete)
 	    }
